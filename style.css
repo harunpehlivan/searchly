@@ -1,0 +1,171 @@
+/* Thanks to eliasciur for making my old CSS much better! */
+
+@media (prefers-color-scheme: light)
+{
+body
+{
+  font-family: sans-serif;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+input
+{
+  width: 70%;
+  height: 40px;
+  padding-left: 10px;
+  background: rgb(235, 235, 235);
+  border: none;
+  outline: none;
+  border-radius: 20px;
+}
+
+#results
+{
+  text-align: left;
+  padding: 25px;
+}
+
+.resulttitle
+{
+  font-size: 30px;
+  color: blue;
+}
+
+.resulttitle:visited
+{
+  color: purple;
+}
+
+.resulturl
+{
+  font-size: 18px;
+  color: green;
+}
+
+button
+{
+  color: black;
+  background-color: rgb(235, 235, 235);
+  border: none;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.search
+{
+  color: black;
+  background: transparent;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+  border: none;
+  border-radius: 40px;
+  transition: 200ms;
+}
+.search:hover
+{
+  background: rgb(235, 235, 235);
+}
+
+#sitepreview
+{
+  position: fixed;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+
+  width: 50%;
+  height: 50%;
+  top: 25%;
+  left: 25%;
+  
+}
+}
+
+
+
+@media (prefers-color-scheme: dark)
+{
+body
+{
+  font-family: sans-serif;
+  text-align: center;
+  background-color: rgb(15, 15, 15);
+  color: white;
+}
+
+input
+{
+  width: 70%;
+  height: 40px;
+  padding-left: 10px;
+  background-color: rgb(35, 35, 35);
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  color: white;
+}
+
+#results
+{
+  text-align: left;
+  padding: 25px;
+}
+
+.resulttitle {
+  font-size: 30px;
+  color: cyan;
+}
+
+.resulttitle:visited
+{
+  color: magenta;
+}
+
+.resulturl
+{
+  font-size: 18px;
+  color: green;
+}
+
+button
+{
+  color: white;
+  background-color: rgb(20, 20, 20);
+  border: none;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.search
+{
+  color: white;
+  background: transparent;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+  border: none;
+  border-radius: 40px;
+  transition: 200ms;
+}
+.search:hover
+{
+  background: rgb(235, 235, 235);
+}
+
+#sitepreview
+{
+  position: fixed;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+
+  width: 50%;
+  height: 50%;
+  top: 25%;
+  left: 25%;
+}
+
+}

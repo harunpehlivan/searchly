@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add results to Searchly</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <h1>Here you can add your own websites to Searchly!</h1>
+  <p>You can use Searchly to promote your own website or just to add other websites to the search engine!</p>
+  <p>Please remember to keep the results clean. Any unsafe results will be banned. If you find any unsafe results while browsing, please email me here: <a href="https://replit.com/@harunpehlivanitdew">HARUN PEHLİVAN
+</a>. A report system will be added soon!</p>
+  <p>Just so you know, tag spam in titles does not work! You are free to tag spam, as although my algorithm will show websites with the highest number of matched keywords first, it also shows shorter titles before longer ones to prevent tag spam! If you tag spam, you may be shown more often, but you will appear much further down the list than others! People are also unlikely to click on tag spam titles!</p>
+  <br />
+
+  <p>Enter the title of the webpage - short titles that contain keywords users would search for make great titles the algorithm favours, meaning they will show higher up the list!</p>
+  <input placeholder="Webpage title" id="titlebox" />
+  <br />
+  
+  <p>Enter the URL of the webpage - this is the website address that the user will be taken to when they click on the result. For example, <i>https://Searchly.123programming.repl.co</i>.</p>
+  <input placeholder="Webpage URL" id="urlbox" />
+  <br />
+  
+  <p>Enter the description of the webpage - fairly short descriptions that contain keywords users would search for make great descriptions the algorithm favours, meaning they will show higher up the list!</p>
+  <input placeholder="Webpage description" id="descbox" />
+  <br />
+
+  <br /><br />
+
+  <button onclick='let title = document.getElementById("titlebox").value; let url = document.getElementById("urlbox").value; let desc = document.getElementById("descbox").value; location.href = "add.php?title=" + title + "&url=" + url + "&desc=" + desc;'>Add the site!</button>
+  
+
+</body>
+</html>
